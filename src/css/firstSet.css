@@ -1,0 +1,55 @@
+.hero {
+  background-color: #4b0082; /* Purple background */
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 0 50px;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin-left: 100px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero .highlight {
+  color: #ffc107; /* Yellow color */
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.cta-button {
+  background-color: #ffc107; /* Yellow color */
+  color: #000;
+  border: none;
+  padding: 15px 70px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #e0a800;
+}
+
+.phone-mockup {
+  width: 400px;
+  height: 60vh;
+  background-image: url("../images/YelloPayment+API.avif"); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  /* margin-left: 250px; */
+  margin-top: 200px;
+}

@@ -1,0 +1,54 @@
+.giant {
+    background-image: linear-gradient(to bottom, #FFEFBB, #FFE9A0, #FFE285);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: fit-content;
+    column-gap: 80px;
+}
+
+.content-two {
+    max-width: 600px;
+    text-align: left;
+    color: #000;
+}
+
+.content-two h1 {
+    font-size: 72px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+    line-height: 70px;
+    /* text-wrap: ; */
+}
+
+.content-two p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-weight: normal;
+    color: #333;
+}
+
+.secondimage {
+    width: 400px;
+    height: 60vh;
+    background-image: url('../images/Section\ 2.avif'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    /* margin-left: 250px; */
+    margin-top: 200px;
+    
+  }
+
+.learn-button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 15px 70px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
